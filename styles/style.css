@@ -155,6 +155,11 @@ body{
     padding: 40px;
 }
 
+.active {
+    font-weight: bold;
+    color: orangered !important;
+}
+
 /* about style */
 
 #main-section{
