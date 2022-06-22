@@ -13,9 +13,12 @@ body{
 
 .container{
     margin: auto;
+    height: 100%;
     width: 80%;
     overflow: hidden;
 }
+
+/* home-style */
 
 #main-header{
     border-bottom: 0.2em orangered solid;
@@ -120,7 +123,7 @@ body{
 }
 
 #block-1{
-    padding: 0 20px 0 20px;
+    padding: 0px 20px 0px 20px;
     line-height: 20px;
     text-align: center;
     width: 33.3%;
@@ -128,7 +131,7 @@ body{
 }
 
 #block-2 {
-    padding: 0 20px 0 20px;
+    padding: 0px 20px 0px 20px;
     line-height: 20px;
     text-align: center;
     width: 33.3%;
@@ -136,7 +139,7 @@ body{
 }
 
 #block-3 {
-    padding: 0 20px 0 20px;
+    padding: 0px 20px 0px 20px;
     line-height: 20px;
     text-align: center;
     width: 33.3%;
@@ -144,16 +147,48 @@ body{
 }
 
 #main-footer{
+    /* position: relative;
+    bottom: 0; */
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     background-color: orangered;
     color: #fff;
     padding: 40px;
 }
+
+/* about style */
+
+#main-section{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#article{
+    float: left;
+    width: 78%;
+}
+
+#sidebar {
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 10px 10px 40px 10px;
+    background-color: #38414C;
+    color: #fff;
+    float: right;
+    width: 20%;
+}
+
+#quotes p{
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #38414C;
+    color: #fff;
+}
+
+/* media query */
 
 @media (max-width:905px){
     #main-header{
@@ -229,6 +264,19 @@ body{
         width: 100%;
         background-color: orangered;
         color: #fff;
-        padding: 40px;
+        padding: 20px;
+    }
+    #article {
+        float: none;
+        width: 100%;
+    }
+    #sidebar {
+        border-radius: 2px;
+        margin-top: 10px;
+        padding: 10px 10px 10px 10px;
+        background-color: #38414C;
+        color: #fff;
+        float:  none;
+        width: 100%;
     }
 }
