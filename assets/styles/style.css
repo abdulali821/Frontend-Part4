@@ -109,8 +109,7 @@ body{
 }
 
 #btn{
-    width: 100px;
-    height: 30px;
+    padding: 8px 10px 8px 10px;
     background-color: orangered;
     color: #fff;
     font-weight: bold;
@@ -147,8 +146,6 @@ body{
 }
 
 #main-footer{
-    /* position: relative;
-    bottom: 0; */
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
@@ -186,6 +183,47 @@ body{
     padding: 10px;
     background-color: #38414C;
     color: #fff;
+}
+
+/* services style */
+
+#services{
+    width: 66%;
+    float: left;
+}
+
+#quote-form{
+    width: 30%;
+    float: right;
+    margin-top: 70px;
+    border-radius: 2px;
+    padding: 20px;
+    background-color: #38414C;
+    color: #fff;
+}
+
+#services-1{
+    background-color: #c8c8c8;
+    color: black;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+}
+
+#services-2{
+    background-color: #c8c8c8;
+    color: black;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+}
+
+#services-3{
+    background-color: #c8c8c8;
+    color: black;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
 }
 
 /* media query */
@@ -278,5 +316,18 @@ body{
         color: #fff;
         float:  none;
         width: 100%;
+    }
+    #services {
+        width: 100%;
+        float: none;
+    }
+    #quote-form {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 20px;
+        background-color: #38414C;
+        color: #fff;
     }
 }
